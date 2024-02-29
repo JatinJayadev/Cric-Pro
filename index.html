@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CricPro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,600;0,700;1,400;1,500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <img id="logo"
+        src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-logo.JPG"
+        alt="Logo" />
+    <h1><strong>ICC WORLD CUP 2011</strong></h1>
+    <h2>India Vs SriLanka ScoreCard</h2>
+    <div id="scorebox">
+        <div class="row" id="red">
+            <div>India Innings</div>
+            <div>277-4(48.2)</div>
+        </div>
+        <div class="row" id="gray">
+            <div class="sub-row1">Batsman</div>
+            <div class="sub-row2"></div>
+            <div class="sub-row3">
+                <p>R</p>
+                <p>B</p>
+                <p>4s</p>
+                <p>6s</p>
+                <p>SR</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sub-row1">
+                <p id="Virender" class="indian">Virender Sehwag</p>
+            </div>
+            <div class="sub-row2">lbw b L Malinga</div>
+            <div class="sub-row3">
+                <p>0</p>
+                <p>2</p>
+                <p>0</p>
+                <p>0</p>
+                <p>0.00</p>
+            </div>
+        </div>
+        <div class="popup" id="Virender-popup">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sehwag.png"
+                alt="">
+        </div>
+        <div class="row">
+            <div class="sub-row1">
+                <p id="Sachin" class="indian">Sachin Tendulkar</p>
+            </div>
+            <div class="sub-row2">c K Sangakkara b L Malinga</div>
+            <div class="sub-row3">
+                <p>18</p>
+                <p>14</p>
+                <p>2</p>
+                <p>0</p>
+                <p>128.57</p>
+            </div>
+        </div>
+        <div class="popup" id="Sachin-popup">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sachin.png"
+                alt="">
+        </div>
+        <div class="row">
+            <div class="sub-row1">
+                <p id="Gautam" class="indian">Gautam Gambhir</p>
+            </div>
+            <div class="sub-row2">b T Perera</div>
+            <div class="sub-row3">
+                <p>97</p>
+                <p>122</p>
+                <p>9</p>
+                <p>0</p>
+                <p>79.51</p>
+            </div>
+        </div>
+        <div class="popup" id="Gautam-popup">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-gambhir.png"
+                alt="">
+        </div>
+        <div class="row">
+            <div class="sub-row1">
+                <p id="Virat" class="indian">Virat Kohli</p>
+            </div>
+            <div class="sub-row2">c & b T Dilshan</div>
+            <div class="sub-row3">
+                <p>35</p>
+                <p>49</p>
+                <p>4</p>
+                <p>0</p>
+                <p>71.43</p>
+            </div>
+        </div>
+        <div class="popup" id="Virat-popup">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-virat-kohli.png"
+                alt="">
+        </div>
+        <div class="row">
+            <div class="sub-row1">
+                <p id="Dhoni" class="indian">MS Dhoni</p> (c & wk)
+            </div>
+            <div class="sub-row2">not out</div>
+            <div class="sub-row3">
+                <p>91</p>
+                <p>79</p>
+                <p>8</p>
+                <p>2</p>
+                <p>115.19</p>
+            </div>
+        </div>
+        <div class="popup" id="Dhoni-popup">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-dhoni.png"
+                alt="">
+        </div>
+        <div class="row">
+            <div class="sub-row1">
+                <p id="Yuvraj" class="indian">Yuvraj Singh</p>
+            </div>
+            <div class="sub-row2">not out</div>
+            <div class="sub-row3">
+                <p>21</p>
+                <p>24</p>
+                <p>2</p>
+                <p>0</p>
+                <p>87.50</p>
+            </div>
+        </div>
+        <div class="popup" id="Yuvraj-popup">
+            <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-yuvraj.png"
+                alt="">
+        </div>
+        <div class="row">
+            <div class="sub-row1">Extras</div>
+            <div class="sub-row2"></div>
+            <div class="sub-row3">
+                <p>15(b 1, lb 6, w 8, nb 0, p 0)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sub-row1">Total</div>
+            <div class="sub-row2"></div>
+            <div class="sub-row3">
+                <p>277(4 wkts, 48.2 Ov)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sub-row1-last">Did not bat</div>
+            <div class="sub-row2-last">
+                <div>
+                    <p id="Suresh" class="indian">Suresh Raina, &nbsp;</p>
+                    <div class="popup" id="Suresh-popup">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-suresh-raina.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div>
+                    <p id="Harbhajan" class="indian"> Harbhajan Singh, &nbsp;</p>
+                    <div class="popup" id="Harbhajan-popup">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-harbhajan.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div>
+                    <p id="Zaheer" class="indian">Zaheer Khan, &nbsp;</p>
+                    <div class="popup" id="Zaheer-popup">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-zaheer-khan.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div>
+                    <p id="Munaf" class="indian">Munaf Patel, &nbsp;</p>
+                    <div class="popup" id="Munaf-popup">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-munaf-patel.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <div>
+                    <p id="Sreesanth" class="indian">S Sreesanth</p>
+                    <div class="popup" id="Sreesanth-popup">
+                        <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-sreeshanth.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">Made with ❤️ by Kalvian</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
